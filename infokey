@@ -5,5 +5,7 @@ l       forward-char
 h       backward-char
 g       beginning-of-node
 G       end-of-node
+J       scroll-forward
+K       scroll-backward
 #var
-scroll-step=1
+scroll-step=5
