@@ -1,0 +1,8 @@
+#!/bin/sh
+
+alias vi=vimx
+alias vim=vimx
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."

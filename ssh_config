@@ -1,0 +1,4 @@
+Host osu
+  HostName flip.engr.oregonstate.edu
+  User @USERNAME@
+  ForwardX11 yes

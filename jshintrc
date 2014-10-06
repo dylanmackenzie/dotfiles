@@ -1,0 +1,7 @@
+{
+  "supernew": true,
+  "newcap": true,
+  "unused": true,
+  "undef": true,
+  "eqnull": true
+}
