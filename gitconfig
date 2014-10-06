@@ -1,6 +1,6 @@
 [user]
-  name = Dylan MacKenzie
+	name = Dylan MacKenzie
 	email = dylanxmackenzie@gmail.com
 [alias]
-  s = status
+	s = status
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
