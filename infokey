@@ -8,4 +8,4 @@ G       end-of-node
 J       scroll-forward
 K       scroll-backward
 #var
-scroll-step=5
+scroll-step=1
