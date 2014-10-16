@@ -6,3 +6,7 @@ alias vim=vimx
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+
+function snetlist {
+  gnetlist -g spice-sdb -o "${1%sch}ckt" "$1"
+}
