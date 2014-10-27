@@ -3,6 +3,10 @@
 alias vi=vimx
 alias vim=vimx
 
+alias python=python3
+alias python2=python
+alias pip=python3-pip
+
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."

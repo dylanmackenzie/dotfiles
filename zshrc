@@ -55,8 +55,12 @@ if [ -f ~/dotfiles/aliases ]; then
 	. ~/dotfiles/aliases
 fi
 
-export PATH="/usr/local/heroku/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/home/@USERNAME@/bin:/usr/local/sbin:/usr/sbin"
+export EDITOR="vim"
+export PATH="/usr/local/heroku/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/home/@USERNAME@/.local/bin:/usr/local/sbin:/usr/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
+
+eval "$(tmuxifier init -)"
+export TMUXIFIER_LAYOUT_PATH="$HOME/.tmuxifier"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
