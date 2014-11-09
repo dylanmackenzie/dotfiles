@@ -34,6 +34,7 @@ export PATH="/usr/local/heroku/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/
 eval "$(tmuxifier init -)"
 export TMUXIFIER_LAYOUT_PATH="$HOME/.tmuxifier"
 
-
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
+
+psupply="/home/@USERNAME@/osu/ece322/power_supply/"
