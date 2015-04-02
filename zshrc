@@ -29,7 +29,7 @@ if [ -f ~/dotfiles/aliases ]; then
 fi
 
 export EDITOR="vim"
-export PATH="/usr/local/heroku/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/home/@USERNAME@/.local/bin:/usr/local/sbin:/usr/sbin"
+export PATH="/usr/local/heroku/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/home/@USERNAME@/.local/bin:/usr/local/sbin:/usr/sbin:$GOPATH/bin"
 
 eval "$(tmuxifier init -)"
 export TMUXIFIER_LAYOUT_PATH="$HOME/.tmuxifier"
@@ -37,4 +37,5 @@ export TMUXIFIER_LAYOUT_PATH="$HOME/.tmuxifier"
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
 
-psupply="/home/@USERNAME@/osu/ece322/power_supply/"
+# Github auth token
+export GITHUB_AUTH="1f69a56cae78f19114b13fe695f8e2a718266088"
