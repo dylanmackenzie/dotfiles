@@ -36,3 +36,6 @@ export TMUXIFIER_LAYOUT_PATH="$HOME/.tmuxifier"
 
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
+
+# Github Auth
+export GITHUB_AUTH="e2eb00269f42d4705dd426dcddb92e0e4d59a724"
